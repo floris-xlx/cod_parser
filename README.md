@@ -125,14 +125,14 @@ Here, `0001` is the transaction sequence for that transaction. You must **group 
 ```
 2100010000 1000000000100000210625...
 2200010001 Payment for invoice #4567
-2300010002NL48REVO2468466977 ROOS ANNIEK SCHILTEN
+2300010002NL48REVO2468466977 FIRST_NAME MIDDLE_NAME LAST_NAME
 ```
 
 ### Parsed Result (CSV)
 
 | statement_sequence | transaction_sequence | amount | message                   | transaction_date | account_name         | account_number     | account_bic |
 | ------------------ | -------------------- | ------ | ------------------------- | ---------------- | -------------------- | ------------------ | ----------- |
-| 0                  | 0001                 | 100.00 | Payment for invoice #4567 | 2021-06-25       | ROOS ANNIEK SCHILTEN | NL48REVO2468466977 | REVOLT21    |
+| 0                  | 0001                 | 100.00 | Payment for invoice #4567 | 2021-06-25       | FIRST_NAME MIDDLE_NAME LAST_NAME | NL48REVO2468466977 | REVOLT21    |
 
 ---
 
